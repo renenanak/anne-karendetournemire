@@ -37,7 +37,7 @@
 
 body, html {
   font-family:"Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
+  font-size: 1.5vw;
   padding:0;
   margin:0;
 }
@@ -54,27 +54,47 @@ body, html {
   color:#707070;
 }
 .post {
-  text-align:justify;
+  display: grid;
+  grid-template-columns: 38vw 48vw;
   margin:5vw;
+  grid-gap: 4vw;
+}
+.g {
+  grid-column:1;
+  object-fit:contain;
+}
+.d {
+  grid-column:2;
+}
+.imgrid {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
 }
 </style>
 <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 </head>
 <body>
 <img class="center-fit" src="img/Frise_11.jpg"/>
-  <center><h1 class="logo">Anne Karen de Tournemire</h1><h2 class="slogo">conteuse</h2></center>
-   <div class="post">
-<img src="img/boom.png" style="zoom:50vw"/><br><br>
+  <center><h1 class="logo">Anne-Karen de Tournemire</h1><h2 class="slogo">conteuse</h2></center>
+  
+<div class="post">
+<div class="g">
+<img class="imgrid" src="img/boom.png"/>
+</div>
+<div class="d">
 Naissance à La Rochelle le 10 mars 1970.<br><br>
-Études littéraires à Paris (khâgne, maîtrise lettres modernes, DEA théâtre/arts du spectacle).<br>
+Études littéraires à Paris (khâgne, maîtrise lettres modernes, DEA théâtre/arts du spectacle).<br><br>
 Vies successives au Havre, à Dunkerque, Vientiane au Laos, Montargis, Loches en Touraine, Casablanca, Luxembourg, Bruxelles.<br><br>
 Formation au conte au CLIO à Vendôme (Conservatoire contemporain de Littérature Orale, atelier Fahrenheit 451 avec Bruno de la Salle, 2000-2003).<br><br>
 Chant : chorale polyphonique de Casablanca, chorale mixte du Conservatoire de Luxembourg, chœur "Home sweet home" (Luxembourgeois, résidents étrangers et réfugiés, avec Camille Kerger),  stages à l'INECC (Institut Européen de Chant Choral).<br><br>
 Travail en duo : au Maroc avec Redouane Bentaleb, musicien et danseur, et Nathalie Logié, illustratrice ; au Luxembourg avec Lydie Piéplu, danseuse et chorégraphe, Jean Ribouillault, mime et multi-instrumentiste, Eleonora Pasti, plasticienne et accordéoniste, Arian Lishi, musicien.<br><br>
 Contes et ateliers dans les écoles, crèches, bibliothèques, prisons, hôpitaux… <br><br>
-Visites contées dans les musées d'Histoire et d’Art de la Ville de Luxembourg à l’origine du CD enregistré au studio Bamhaus (Pimpampel, les histoires ont des ailes).<br><br>
+Visites contées dans les musées d'Histoire et d’Art de la Ville de Luxembourg à l’origine du CD enregistré au studio Bamhaus (<i>Pimpampel, les histoires ont des ailes</i>).<br><br>
 Stages marionnettes (My Puppet Project, Bruxelles ; théâtre Mouffetard avec Brice Coupey).<br><br>
-Septembre 2019 : retour en France, entre Paris et Loches.
-  </div>
+Septembre 2019 : retour en France, entre Paris et Loches.<br><br>
+</div>
+</div>
 </body>
 </html>
