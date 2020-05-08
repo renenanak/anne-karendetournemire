@@ -55,22 +55,25 @@ body, html {
 }
 .post {
   display: grid;
-  grid-template-columns: 38vw 48vw;
+  grid-template-rows: auto;
+  grid-template-columns: 32vw 54vw;
   margin:5vw;
   grid-gap: 4vw;
 }
 .g {
   grid-column:1;
-  object-fit:contain;
 }
 .d {
   grid-column:2;
 }
 .imgrid {
     width: 100%;
-    height: 100%;
+    height: 50%;
     display: block;
     object-fit: contain;
+}
+.free {
+  margin:5vw;
 }
 </style>
 <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
@@ -81,7 +84,8 @@ body, html {
   
 <div class="post">
 <div class="g">
-<img class="imgrid" src="img/boom.png"/>
+<img class="imgrid" src="img/boom2.jpg"/>
+<img class="imgrid" src="img/graou.jpg"/>
 </div>
 <div class="d">
 Naissance à La Rochelle le 10 mars 1970.<br><br>
@@ -96,5 +100,9 @@ Stages marionnettes (My Puppet Project, Bruxelles ; théâtre Mouffetard avec Br
 Septembre 2019 : retour en France, entre Paris et Loches.<br><br>
 </div>
 </div>
+<div class="free">
+<h2>Spectacles</h2>
+</div>
 </body>
 </html>
+
